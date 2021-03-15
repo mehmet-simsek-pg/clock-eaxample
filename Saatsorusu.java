@@ -1,14 +1,14 @@
 package SubatAyıSoruları;
 public class Saatsorusu {
     public static void main(String[] args) {
-        int saat=3;
-        float saat1=1f;
-        float saat2=2f/3;
-        float saat3=5f/4;
-        while (saat<1000){
-            if ((saat1*saat)%12==0 && (saat2*saat)%12==0 && (saat3*saat)%12==0)
+        int hour=3;
+        float hour1=1f;
+        float hour2=2f/3;
+        float hour3=5f/4;
+        while (hour<1000){
+            if ((hour1*hour)%12==0 && (hour2*hour)%12==0 && (hour3*hour)%12==0)
                 break;
-            saat++; }
+            hour++; }
         System.out.println(saat+" sonra tekrar aynı saati gösterirler");
     }
 }
